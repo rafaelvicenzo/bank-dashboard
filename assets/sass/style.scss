@@ -27,6 +27,12 @@ aside {
     font-weight: 300;
 }
 
+a {
+    text-decoration: none;
+    color: #99B2C6;
+    font-weight: 500;
+}
+
 h5 {
     color: #9b9b9b;
     font-weight: 400;
@@ -44,6 +50,10 @@ h5 {
     gap: 45px;
     flex-direction: column;
     margin: 22px 0;
+}
+
+.settingsTools {
+    margin-bottom: 80px;
 }
 
 .switch {
@@ -66,7 +76,7 @@ h5 {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: #99B2C6;
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -103,4 +113,18 @@ h5 {
   
   .slider.round:before {
     border-radius: 50%;
+}
+
+.darkMode {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: small;
+    color: #99B2C6;
 }
