@@ -9,7 +9,7 @@
 body {
     background-color: #F1f4fa;
 }
-
+// ASIDE
 aside {
     display: flex;
     flex-direction: column;
@@ -127,4 +127,60 @@ h5 {
     font-weight: 500;
     font-size: small;
     color: #99B2C6;
+}
+
+// CONTAINERS DISPLAY
+.elements {
+    display: flex;
+}
+
+//B8B8B8
+
+// NAVBAR
+
+.search {
+    margin-top: 27px;
+    width: 748px;
+    padding: 15px;
+    border-radius: 13px;
+    border: none;
+}
+
+.search::placeholder {
+    color: #b8b8b8;
+}
+
+.searchImg {
+    position: relative;
+    right: 46px;
+    bottom: -15px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.elementNavBar {
+    display: flex;
+}
+
+.dateTLZ {
+    background-color: #fff;
+    margin-top: 27px;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    padding: 0 33px;
+    font-weight: 500;
+}
+
+.notification {
+    margin: 27px 15px 0;
+}
+
+.notificationImage {
+    background-color: #fff;
+    border: none;
+    padding: 9px 20px;
+    border-radius: 11px;
+    cursor: pointer;
 }
