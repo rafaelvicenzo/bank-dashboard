@@ -30,6 +30,8 @@ a {
   text-decoration: none;
   color: #99B2C6;
   font-weight: 500;
+  font-size: small;
+  align-items: center;
 }
 
 h5 {
@@ -155,6 +157,7 @@ input:checked + .slider:before {
 
 .elementNavBar {
   display: flex;
+  gap: 16px;
 }
 
 .dateTLZ {
@@ -189,4 +192,32 @@ input:checked + .slider:before {
   padding: 9px 20px;
   border-radius: 11px;
   cursor: pointer;
+}
+
+.dashboardMain {
+  background-image: url(../img/blackimage.jpeg);
+  background-repeat: no-repeat;
+  margin: 39px 20px 25px 0px;
+  width: 747px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dashboardMain h4 {
+  color: #fff;
+  margin: 0 29px 0 42px;
+  padding-top: 52px;
+  font-weight: 400;
+  font-size: large;
+}
+
+.dashboardMain h1 {
+  color: #fff;
+  font-weight: 400;
+  font-size: xx-large;
+  margin-left: 46px;
+  margin-bottom: 86px;
 }/*# sourceMappingURL=style.css.map */
