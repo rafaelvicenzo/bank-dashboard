@@ -197,8 +197,10 @@ input:checked + .slider:before {
 .dashboardMain {
   background-image: url(../img/blackimage.jpeg);
   background-repeat: no-repeat;
+  background-size: cover;
   margin: 39px 20px 25px 0px;
   width: 747px;
+  border-radius: 20px;
 }
 
 .cards {
@@ -216,8 +218,47 @@ input:checked + .slider:before {
 
 .dashboardMain h1 {
   color: #fff;
-  font-weight: 400;
-  font-size: xx-large;
+  font-weight: 500;
+  font-size: xxx-large;
   margin-left: 46px;
   margin-bottom: 86px;
+}
+
+.cardLeft, .cardRight {
+  background: linear-gradient(to top, #2B2B2B 50%, #363636);
+  margin-bottom: 45px;
+  border-radius: 13px;
+  width: 280px;
+  text-align: end;
+  padding: 28px;
+}
+
+.cardLeft, .cardRight p {
+  color: #b8b8b8;
+  text-align: end;
+}
+
+.cardRight h1 {
+  margin-bottom: 0;
+  letter-spacing: normal;
+  font-size: xx-large;
+}
+
+.cardLeft h1 {
+  margin-bottom: 0;
+  letter-spacing: normal;
+  font-size: xx-large;
+}
+
+main {
+  display: flex;
+}
+
+.dashboardSecond {
+  margin: 39px 0 0 70px;
+}
+
+.circle {
+  background-color: #000;
+  border: 1px solid;
 }/*# sourceMappingURL=style.css.map */
