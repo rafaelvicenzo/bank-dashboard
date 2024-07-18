@@ -1,3 +1,3 @@
 # bank-dashboard
 
-I create this interface \\ Almost
+I create this interface \\ Static
