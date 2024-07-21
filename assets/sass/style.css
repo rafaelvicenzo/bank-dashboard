@@ -322,4 +322,47 @@ main {
   width: 150px;
   cursor: pointer;
   font-weight: bold;
+}
+
+.latestTransaction {
+  background-color: #fff;
+  width: 746px;
+  border-radius: 20px;
+}
+
+.titleTransaction {
+  display: flex;
+  gap: 520px;
+  cursor: pointer;
+}
+
+.titleTransaction h1 {
+  font-size: large;
+}
+
+.headerTransaction {
+  display: flex;
+  gap: 50px;
+  color: #99b2c6;
+  margin-top: 30px;
+}
+
+.headerTransaction input[type=checkbox] {
+  width: 15px;
+}
+
+.transactions input[type=checkbox] {
+  width: 15px;
+}
+
+.transactions {
+  display: flex;
+  gap: 27px;
+}
+
+.transactionsColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
 }/*# sourceMappingURL=style.css.map */
