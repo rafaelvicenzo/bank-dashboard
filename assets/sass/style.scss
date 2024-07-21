@@ -269,6 +269,8 @@ main {
     background-color: #242424;
     margin: 39px 0 0 70px;
     border-radius: 20px;
+    margin-bottom: 25px;
+    width: 422px;
 }
 
 .marketingTitle {
@@ -305,6 +307,30 @@ main {
     background: #242424;   
 }
 
+.dashboardSecond h1, h4 {
+    color: #fff;
+}
+
+.dashboardSecond h1 {
+    margin: 10px;
+    font-weight: 500;
+}
+
+.dashboardSecond h4 {
+    font-size: smaller;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.dashboardSecond button {
+    padding: 10px;
+    background: #fff;
+    border: none;
+    border-radius: 8px;
+    width: 150px;
+    cursor: pointer;
+    font-weight: bold;
+}
 
 
 
