@@ -242,12 +242,14 @@ input:checked + .slider:before {
   margin-bottom: 0;
   letter-spacing: normal;
   font-size: xx-large;
+  font-weight: 700;
 }
 
 .cardLeft h1 {
   margin-bottom: 0;
   letter-spacing: normal;
   font-size: xx-large;
+  font-weight: 700;
 }
 
 main {
@@ -361,6 +363,7 @@ main {
 .transactions {
   display: flex;
   gap: 27px;
+  width: 725px;
 }
 
 .transactions p {
@@ -377,19 +380,22 @@ main {
 .situation {
   background-color: #3fb8a9;
   color: #fff;
-  border-radius: 4px;
+  border-radius: 9px;
   width: 90px;
   text-align: center;
   font-size: small;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 30px;
 }
 
 .transactions button {
   background-color: #2c2c2c;
   color: #fff;
   border: none;
-  border-radius: 3px;
+  border-radius: 9px;
   width: 80px;
+  height: 30px;
+  font-size: small;
 }/*# sourceMappingURL=style.css.map */
