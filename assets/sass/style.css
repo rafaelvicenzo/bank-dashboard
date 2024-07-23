@@ -365,9 +365,10 @@ main {
   gap: 34px;
   width: 725px;
   font-size: small;
+  margin-bottom: 28px;
 }
 
-.transactions p {
+.transactions td {
   color: gray;
 }
 
@@ -399,4 +400,12 @@ main {
   width: 80px;
   height: 30px;
   font-size: small;
+}
+
+.productName {
+  width: 107px;
+}
+
+.productPrice {
+  width: 45px;
 }/*# sourceMappingURL=style.css.map */
