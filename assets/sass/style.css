@@ -177,7 +177,7 @@ input:checked + .slider:before {
 .notificationImage {
   background-color: #fff;
   border: none;
-  padding: 9px 20px;
+  padding: 9px 15px;
   border-radius: 11px;
   cursor: pointer;
 }
@@ -187,11 +187,12 @@ input:checked + .slider:before {
 }
 
 .picture {
-  background-color: #fff;
   border: none;
-  padding: 9px 20px;
+  padding: 23px 23px;
   border-radius: 11px;
   cursor: pointer;
+  background-image: url(/assets/img/icons/androgynous-avatar-non-binary-queer-person.jpg);
+  background-size: cover;
 }
 
 .dashboardMain {
