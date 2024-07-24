@@ -350,6 +350,9 @@ main {
   gap: 50px;
   color: #99b2c6;
   font-size: smaller;
+  justify-content: flex-start;
+  width: 100%;
+  margin-left: 23px;
 }
 
 .headerTransaction input[type=checkbox] {
