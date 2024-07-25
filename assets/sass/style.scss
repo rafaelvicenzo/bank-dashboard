@@ -398,6 +398,10 @@ main {
     color: gray;
 }
 
+.transactions .situation {
+    color: #fff;
+}
+
 .transactionsColumn {
     display: flex;
     flex-direction: column;
@@ -407,7 +411,6 @@ main {
 
 .situation {
     background-color: #3fb8a9;
-    color: #fff;
     border-radius: 9px;
     width: 90px;
     text-align: center;
