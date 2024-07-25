@@ -360,7 +360,7 @@ main {
 
 .headerTransaction {
   display: flex;
-  gap: 50px;
+  gap: 34px;
   color: #99b2c6;
   font-size: smaller;
   justify-content: flex-start;
