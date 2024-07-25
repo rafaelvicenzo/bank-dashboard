@@ -115,6 +115,13 @@ input:checked + .slider:before {
 .darkMode {
   display: flex;
   justify-content: center;
+  gap: 15px;
+}
+
+.modeImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .copyright {
