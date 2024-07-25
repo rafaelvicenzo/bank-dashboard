@@ -41,11 +41,13 @@ h5 {
     margin-left: 35px;
 }
 
-.dashboard, .analytics, .sales, .product, .customer, .payout, .profile, .inbox, .settings {
+.dashboard, .analytics, .salesIcon, .product, .customer, .payout, .profile, .inbox, .settings {
     display: flex;
     margin-left: 35px;
     gap: 16px;
 }
+
+
 
 .administratorTools, .settingsTools {
     display: flex;
@@ -283,6 +285,8 @@ main {
     width: 422px;
 }
 
+
+
 .marketingTitle {
     margin: 35px 0 30px 0;
     color: #fff;
@@ -340,6 +344,10 @@ main {
     width: 150px;
     cursor: pointer;
     font-weight: bold;
+}
+
+.dashboardSecond button:hover {
+    background: #e6e6e6;
 }
 
 .latestTransaction {

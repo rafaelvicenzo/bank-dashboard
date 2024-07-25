@@ -40,7 +40,7 @@ h5 {
   margin-left: 35px;
 }
 
-.dashboard, .analytics, .sales, .product, .customer, .payout, .profile, .inbox, .settings {
+.dashboard, .analytics, .salesIcon, .product, .customer, .payout, .profile, .inbox, .settings {
   display: flex;
   margin-left: 35px;
   gap: 16px;
@@ -333,6 +333,10 @@ main {
   width: 150px;
   cursor: pointer;
   font-weight: bold;
+}
+
+.dashboardSecond button:hover {
+  background: #e6e6e6;
 }
 
 .latestTransaction {
