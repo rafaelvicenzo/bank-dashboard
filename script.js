@@ -1,5 +1,7 @@
 'use strict'
 
+
+// dateTime
 function formateDateTime (date) {
     const year = date.getFullYear();
     const month = String(date.getMonth() + 1).padStart(2, '0');
@@ -21,3 +23,19 @@ const now = new Date();
 
 currentTimeElement.setAttribute('datetime', formateDateTime(now));
 currentTimeElement.textContent = formatDisplayTime(now);
+
+
+//Latest transactions colors
+const transactionSituations = document.querySelectorAll('.situation');
+
+transactionSituations.forEach((situation) => {
+    if (situation.textContent === 'Fail') {
+        situation.style.background = '#fa5757';
+    } else if (situation.textContent === 'Completed') {
+        situation.style.background = '#3fb8a9';
+    } else if (situation.textContent === 'Hold') {
+        situation.style.background = '#f8b917';
+    }
+});
+
+
