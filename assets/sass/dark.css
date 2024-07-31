@@ -1,4 +1,38 @@
 @import url(/assets/css/fonts.css);
-body {
+body.dark-mode {
   background-color: #1A1B1E;
+  color: #fff;
+}
+
+aside.dark-mode {
+  background-color: #2e3033;
+}
+
+.logo.dark-mode {
+  color: #fff;
+}
+
+a.dark-mode {
+  color: #b8b8b8;
+}
+
+.copyright.dark-mode {
+  color: #b8b8b8;
+}
+
+.search.dark-mode {
+  background-color: #2e3033;
+}
+
+.dateTLZ.dark-mode {
+  background-color: #2e3033;
+}
+
+.transactionsColumn.dark-mode {
+  background-color: #2e3033;
+  border-radius: 16px;
+}
+
+.salesHistory.dark-mode {
+  background-color: #2e3033;
 }/*# sourceMappingURL=dark.css.map */

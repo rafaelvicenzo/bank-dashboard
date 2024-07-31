@@ -1,6 +1,16 @@
 @import url(/assets/css/fonts.css);
 @import url(/assets/sass/dark.css);
 
+:root {
+    --background-color: #F1f4fa;
+    --aside-background-color: #fff;
+    --text-color: #000;
+    --link-color: #99B2C6;
+    --situation-color: #3fb8a9;
+    --button-background: #2c2c2c;
+    --button-color: #fff;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,14 +18,14 @@
 }
 
 body {
-    background-color: #F1f4fa;
+    background-color: var(--background-color);
 }
 // ASIDE
 aside {
     display: flex;
     flex-direction: column;
     width: 206px;
-    background-color: #fff;
+    background-color: var(--aside-background-color);
     margin: 27px;
     border-radius: 35px;
 }
@@ -26,11 +36,12 @@ aside {
     margin: 51px 0;
     font-size: x-large;
     font-weight: 300;
+    color: var(--text-color);
 }
 
 a {
     text-decoration: none;
-    color: #99B2C6;
+    color: var(--link-color);
     font-weight: 500;
     font-size: small;
     align-items: center;
@@ -411,7 +422,7 @@ main {
 }
 
 .situation {
-    background-color: #3fb8a9;
+    background-color: var(--situation-color);
     border-radius: 9px;
     width: 90px;
     text-align: center;
@@ -423,8 +434,8 @@ main {
 }
 
 .transactions button {
-    background-color: #2c2c2c;
-    color: #fff;
+    background-color: var(--button-background);
+    color: var(--button-color);
     border: none;
     border-radius: 9px;
     width: 80px;
