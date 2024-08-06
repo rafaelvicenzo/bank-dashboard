@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   btnDark.addEventListener('click', function () {
       document.body.classList.toggle('dark-mode');
 
-      document.querySelectorAll('aside, .logo, a, .search, .dateTLZ, .transactionsColumn, .salesHistory, .copyright, .notificationImage, .dashboardIcon')
+      document.querySelectorAll('aside, .logo, a, .search, .dateTLZ, .transactionsColumn, .salesHistory, .copyright, .notificationImage, .transactions button')
       .forEach(element => {
           element.classList.toggle('dark-mode');
       });
